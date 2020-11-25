@@ -1,0 +1,11 @@
+<h1>
+  Original Task
+</h1>
+<button type="button" {{on "click" (perform this.loadData)}}>
+  Run Task
+</button>
+<ul>
+  <li>
+    Task status - {{if this.loadData.isRunning "Running" "Idle"}}
+  </li>
+</ul>
